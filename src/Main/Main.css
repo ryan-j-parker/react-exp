@@ -1,0 +1,18 @@
+/* .container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  height: 90vh;
+  z-index: 2;
+  background-color: aqua;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: coral;
+  border: 2px solid rgb(82, 192, 255);
+  border-radius: 10px;
+} */
