@@ -1,16 +1,33 @@
 .header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  text-align: center;
   background-color: rgb(156, 58, 58);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 3vh;
+  height: 4rem;
+  z-index: 9;
+  font-family: 'Silkscreen';
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
 
 .header h3 {
   font-size: 3rem;
   font-weight: 600;
-  margin-left: 10px;
+  margin: 20px;
   color: white;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.header-logo {
+  height: 3rem;
+  margin: 10px;
 }

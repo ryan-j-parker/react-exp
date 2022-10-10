@@ -1,0 +1,33 @@
+.card {
+  /* height: 280px; */
+  box-sizing: border-box;
+  margin: 10px auto;
+  width: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Gemunu Libre';
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.proj-img {
+  height: 175px;
+  width: auto;
+  object-fit: contain;
+  box-shadow: inset -3px -3px 12px -4px rgba(0, 0, 0, 0.9);
+}
+
+.name {
+  font-size: 3rem;
+  margin: 10px auto;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.desc {
+  text-align: justify;
+  width: 235px;
+}

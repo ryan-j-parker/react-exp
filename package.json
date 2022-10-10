@@ -15,7 +15,10 @@
     "react-scripts": "5.0.1",
     "react-three-fiber": "^6.0.13",
     "react-threejs": "^0.0.4",
+    "react-tsparticles": "^2.3.3",
     "three": "^0.145.0",
+    "tsparticles": "^2.3.4",
+    "tsparticles-slim": "^2.3.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

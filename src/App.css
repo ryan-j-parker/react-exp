@@ -1,15 +1,18 @@
 .App {
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background: linear-gradient(
-    90deg,
+    0deg,
     rgba(123, 45, 92, 1) 0%,
-    rgba(199, 55, 92, 1) 35%,
-    rgba(223, 124, 78, 1) 65%,
-    rgba(123, 99, 122, 1) 100%
+    rgba(199, 55, 92, 1) 45%,
+    rgba(223, 124, 78, 1) 100%,
+    rgba(240, 99, 122, 1) 100%
   );
-  width: 100vw;
-  height: 100vh;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  color: white;
 }

@@ -1,16 +1,21 @@
-import { useState } from 'react';
+import { Route, Switch } from 'react-router-dom';
+import Particles from 'react-tsparticles';
 import './App.css';
-import Battle from './components/Battle/Battle';
-import Start from './components/Start/Start';
+import Particle from './components/Particle';
+
+import Main from './Main/Main';
 
 function App() {
-  const [mode, setMode] = useState('start');
-
   return (
     <div className="App">
-      {mode === 'start' && <Start onStartClick={() => setMode('battle')}>Start Menu</Start>}
-      {mode === 'battle' && <Battle />}
-      {mode === 'gameOver' && <>Game Over</>}
+      <Main />
+      <Particle />
+      <Switch>
+        <Route to="/portfolio"></Route>
+        <Route to="/about"></Route>
+        <Route to="/links"></Route>
+        {/* <Route to="*">{Main}</Route> */}
+      </Switch>
     </div>
   );
 }
