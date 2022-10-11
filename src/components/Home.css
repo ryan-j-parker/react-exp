@@ -1,0 +1,73 @@
+.home {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'portrait text';
+  z-index: 4;
+}
+
+.front-left {
+  grid-area: portrait;
+}
+
+.front-right {
+  grid-area: text;
+}
+
+.portrait {
+  margin: 0 auto;
+  opacity: 0.9;
+  z-index: 2;
+  border-radius: 35%;
+  border: 5px solid rgba(255, 196, 0, 0.829);
+  box-shadow: 5px 5px 18px -4px rgba(0, 0, 0, 0.9);
+}
+
+.home-text {
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+.hi {
+  margin-left: 10px;
+}
+
+.ryan {
+  margin-left: 20px;
+}
+
+.dev {
+  margin-left: 30px;
+}
+
+.mj-text {
+  color: rgb(150, 150, 150);
+  text-align: center;
+  margin: 0 10px;
+  padding: 0 5px;
+  font-size: 0.7rem;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  box-shadow: 0px 0px 20px -2px rgba(233, 146, 33, 0.9);
+  color: white;
+  background-color: rgba(233, 146, 33, 0.6);
+}
+
+.mj-link {
+  color: gold;
+  font-family: 'Inconsolata';
+}
+
+.mustache {
+  margin: 0 auto;
+}

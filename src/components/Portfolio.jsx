@@ -7,7 +7,6 @@ export const Portfolio = () => {
     return (
       <div key={project.id} className="card">
         <p className="name">{project.name}</p>
-        {/* {images} */}
         <img src={`../previews/${project.image}.png`} className="proj-img" />
         <p className="desc">{project.description}</p>
       </div>

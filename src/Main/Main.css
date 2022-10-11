@@ -15,10 +15,6 @@
   height: 100vh;
   width: 100vw;
   display: flex;
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-gap: 10px; */
   border-radius: 10px;
   z-index: 1;
 
@@ -27,30 +23,20 @@
 }
 
 .projects-wrap {
-  /* height: auto;
-  width: auto; */
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(8, 1fr);
-  grid-gap: 20px; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  /* margin: 80px; */
 }
 
 .project-box {
   height: auto;
-  /* width: 500px; */
-  /* background-color: aqua; */
   margin: 0 20px;
   padding: 0 20px;
 }
 
 .projects {
-  /* width: 400px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,8 +45,8 @@
 }
 
 .project-title {
-  width: auto;
-  font-size: 6rem;
+  width: 600px;
+  font-size: 4rem;
   font-family: 'Silkscreen';
   color: white;
   text-align: center;
@@ -68,9 +54,7 @@
   margin-top: 50px;
   overflow: hidden;
   white-space: nowrap;
-  border-right: 0.15em solid orange;
-  /* letter-spacing: 0.15em; */
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 2s steps(25);
 }
 
 @keyframes typing {
@@ -81,17 +65,3 @@
     width: 100%;
   }
 }
-
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  40% {
-    border-color: orange;
-  }
-}
-/* 
-a man with dark hair sitting on the moon with a laptop in his lap and a cat on his shoulder
-
-a cyberpunk cat with a laptop writing code that digitally renders the environment around him */

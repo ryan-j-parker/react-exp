@@ -18,7 +18,7 @@ export const Projects = [
     name: 'devPal',
     image: 'devPal',
     description:
-      'message-board app built with React router and Supabase that allows authenticated users to add posts',
+      'message-board app built with a team of 3 using React router and Supabase that allows authenticated users to add posts',
   },
   {
     id: 3,
