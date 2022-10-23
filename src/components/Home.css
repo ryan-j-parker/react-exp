@@ -71,3 +71,13 @@ a:hover {
 .mustache {
   margin: 0 auto;
 }
+
+.img-wrap .overlay {
+  opacity: 1;
+  transition: opacity 2s linear 1s;
+}
+
+.img-rap:hover .overlay {
+  opacity: 0;
+  transition: opacity 2s linear 1s;
+}

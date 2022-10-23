@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 import Particle from './Particle';
 import ParticleAlt from './ParticleAlt';
+import { GalleryArray } from '../artwork/GalleryArray';
 
 function Home() {
+  const [gallery, setGallery] = useState(false);
+
+  // const animateGallery = ({}) => {
+  //   const Hover = () => {};
+
+  //   GalleryArray.map((image) => {
+  //     <img src={image.source} />;
+  //   });
+  // };
+
   return (
     <>
       <ParticleAlt />
